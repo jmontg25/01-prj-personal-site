@@ -1,1 +1,117 @@
 /* Add you CSS here */
+
+/* Basic reset for consistent styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Share Tech Mono', Arial, sans-serif;
+  /* Use hero-bg.jpg as the background image */
+  background: url('img/hero-bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+}
+
+/* Navigation bar styles */
+nav {
+  background: #333;
+  position: fixed; /* Keep navbar at the top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.navbar li {
+  margin: 0 1em;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 1em 0.5em;
+  display: block;
+}
+.navbar a:hover {
+  color: #4a90e2;
+}
+
+/* Header styles */
+header {
+  background: #4a90e2;
+  color: white;
+  text-align: center;
+  padding: 4em 0 2em 0; /* Add extra top padding for fixed navbar */
+}
+
+/* About Me section styles */
+#about {
+  background: white;
+  max-width: 600px;
+  margin: 2em auto;
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 1em;
+}
+
+/* Skills section styles */
+#skills {
+  background: white;
+  max-width: 600px;
+  margin: 2em auto;
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.skills-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+.skills-list li {
+  margin-bottom: 0.75em;
+  font-size: 1.1em;
+}
+.skills-list i {
+  margin-right: 0.5em;
+  color: #4a90e2;
+  font-size: 1.2em;
+}
+/* Contact section styles */
+#contact {
+  background: white;
+  max-width: 600px;
+  margin: 2em auto;
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+#contact a {
+  color: #4a90e2;
+  text-decoration: none;
+}
+#contact a:hover {
+  text-decoration: underline;
+}
+/* Footer styles */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  margin-top: 2em;
+  font-size: 0.9em;
+}
